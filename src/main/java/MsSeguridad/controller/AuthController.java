@@ -15,4 +15,8 @@ public class AuthController {
     @Autowired
     AuthService authService;
 
+    @PostMapping("/create")
+    public UsuarioModel create(@RequestBody UsuarioModel usuario) {
+        return authService.create(usuario);
+    }
 }

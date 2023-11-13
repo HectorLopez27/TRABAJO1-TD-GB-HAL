@@ -11,4 +11,8 @@ public class AuthService {
     @Autowired
     IAuthRepository authRepository;
 
+    public UsuarioModel create(UsuarioModel usuario){
+        return authRepository.save(usuario);
+    }
+
 }
