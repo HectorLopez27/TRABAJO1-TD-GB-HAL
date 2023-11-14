@@ -1,9 +1,10 @@
+package HAL.MsSeguridad.service;
 
+//import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import TDB.MsSeguridad.repository.IAuthRepository;
-import TDB.MsSeguridad.model.UsuarioModel;
+import HAL.MsSeguridad.repository.IAuthRepository;
+import HAL.MsSeguridad.model.UsuarioModel;
 
 @Service
 public class AuthService {

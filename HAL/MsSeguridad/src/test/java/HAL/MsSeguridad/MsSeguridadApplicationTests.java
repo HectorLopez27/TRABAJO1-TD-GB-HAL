@@ -1,10 +1,10 @@
-package com.test.test;
+package HAL.MsSeguridad;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class TestApplicationTests {
+class MsSeguridadApplicationTests {
 
 	@Test
 	void contextLoads() {
